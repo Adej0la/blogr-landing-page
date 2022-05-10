@@ -1,0 +1,35 @@
+:root {
+  //  Primary Colors
+  --p-light-red: hsl(356, 100%, 66%);
+  --p-lighter-red: hsl(355, 100%, 74%);
+  --p-darker-blue: hsl(208, 49%, 24%);
+
+  // Neutral Colors
+  --n-white: hsl(0, 0%, 100%);
+  --n-lighter-blue: hsl(240, 2%, 79%);
+  --n-dark-blue: hsl(207, 13%, 34%);
+  --n-darker-blue: hsl(240, 10%, 16%);
+
+  //   Gradient Colors
+  --bg-lighter-red: hsl(13, 100%, 72%);
+  --bg-light-red: hsl(353, 100%, 62%);
+
+  --bg-darker-blue: hsl(237, 17%, 21%);
+  --bg-dark-blue: hsl(237, 23%, 32%);
+
+  //   State
+  --cta-text: var(--bg-light-red);
+  --cta-on-hover: var(--p-lighter-red);
+
+  --is-heading: var(--p-darker-blue);
+  --is-white-text: var(--n-white);
+  --is-footer-text: var(--n-lighter-blue);
+  --is-body-copy: var(--n-dark-blue);
+  --is-footer-bg: var(--n-darker-blue);
+
+  --light-bg-grad-init: var(--bg-lighter-red);
+  --light-bg-grad-final: var(--bg-light-red);
+
+  --darker-bg-grad-init: var(--bg-darker-blue);
+  --darker-bg-grad-init: var(--bg-dark-blue);
+}

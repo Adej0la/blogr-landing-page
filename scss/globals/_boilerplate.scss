@@ -1,0 +1,28 @@
+@use "../utils/" as u;
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: u.$is-primary;
+  background-color: var(--n-white);
+}
+
+.base-wrapper {
+  min-width: 375px;
+  max-width: 1440px;
+  margin-inline: auto;
+  position: relative;
+}
